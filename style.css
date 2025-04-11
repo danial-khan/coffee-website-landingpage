@@ -34,7 +34,7 @@
   /* Border Radius  */
   --border-radius-s: 8px;
   --border-radius-m: 30px;
-  --border-radius-circle: 50px;
+  --border-radius-circle: 50%;
 
   /* Site max width  */
   --site-max-width: 1300px;
@@ -186,6 +186,25 @@ body.show-mobile-menu header::before{
   margin-right: 30px;
 }
 
+/* About section styling */
+.about-section{
+  padding: 120px 0;
+  background: var(--light-pink-color);
+}
+
+.about-section .section-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.about-section .about-image-wrapper .about-image{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: var(--border-radius-circle);
+}
 
 
 /* Responsive media query code for max width 900px */
