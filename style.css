@@ -39,6 +39,11 @@
   /* Site max width  */
   --site-max-width: 1300px;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
 /* Styling for whole site  */
 ul {
   list-style: none;
@@ -316,9 +321,11 @@ body.show-mobile-menu header::before{
 .testimonials-section .slider-wrapper{
   overflow: hidden;
   margin: 0 60px 50px;
+  position: relative;
 }
 
 .testimonials-section .testimonial{
+  user-select: none;
   display: flex;
   flex-direction: column;
   padding: 35px;
@@ -454,6 +461,46 @@ body.show-mobile-menu header::before{
   background: transparent
 }
 
+/* Footer section styling */
+
+.footer-section{
+  padding: 20px 0;
+  background: var(--dark-color);
+}
+
+.footer-section .section-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-section :where(.copyright-text, .social-link, .policy-link){
+  color: var(--white-color);
+}
+
+.footer-section .social-link-list{
+  display: flex;
+  gap: 25px;
+}
+
+.footer-section .social-link-list .social-link{
+  font-size: var(--font-size-l);
+  transition: 0.3s ease;
+}
+
+.footer-section .social-link-list .social-link:hover, .footer-section .policy-text .policy-link:hover{
+  color: var(--secondary-color);
+}
+
+.footer-section .policy-text .policy-link{
+  transition: 0.3s ease;
+}
+
+.footer-section .policy-text .separator{
+  margin: 0 5px;
+  color: var(--white-color);
+}
+
 /* Responsive media query code for max width 1024px */
 @media screen and (max-width: 1024){
 
@@ -581,6 +628,7 @@ body.show-mobile-menu header::before{
   .menu-section .menu-list{
     gap: 60px;
   }
+  
 
   .menu-section .menu-list .menu-item,
   .gallery-section .gallery-list .gallery-item{
@@ -593,5 +641,10 @@ body.show-mobile-menu header::before{
 
   .testimonials-section .swiper-slide-button{
     display: none;
+  }
+
+  .footer-section .section-content{
+    flex-direction: column;
+    gap: 20px;
   }
 }

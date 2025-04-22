@@ -10,7 +10,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
     <!-- Linking Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <!-- Header / Navbar  -->
@@ -25,19 +28,19 @@
             <a href="#" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">About</a>
+            <a href="#about" class="nav-link">About</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Menu</a>
+            <a href="#menu" class="nav-link">Menu</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Testimonial</a>
+            <a href="#testimonials" class="nav-link">Testimonial</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Gallery</a>
+            <a href="#gallery" class="nav-link">Gallery</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Contact</a>
+            <a href="#contact" class="nav-link">Contact</a>
           </li>
         </ul>
         <button id="menu-open-button" class="fas fa-bars"></button>
@@ -73,7 +76,7 @@
       </section>
 
       <!-- About Section -->
-      <section class="about-section">
+      <section class="about-section" id="about">
         <div class="section-content">
           <div class="about-image-wrapper">
             <img
@@ -107,7 +110,7 @@
       </section>
 
       <!-- Menu Section -->
-      <section class="menu-section">
+      <section class="menu-section" id="menu">
         <h2 class="section-title">Our Menu</h2>
         <div class="section-content">
           <ul class="menu-list">
@@ -184,9 +187,7 @@
               />
               <div class="menu-details">
                 <h3 class="name">Burger and French Fries</h3>
-                <p class="text">
-                  Quick bites to satisfy your small hunger.
-                </p>
+                <p class="text">Quick bites to satisfy your small hunger.</p>
               </div>
             </li>
           </ul>
@@ -194,36 +195,44 @@
       </section>
 
       <!-- Testimonials Section -->
-       <section class="testimonials-section">
+      <section class="testimonials-section" id="testimonials">
         <h2 class="section-title">Testimonials</h2>
         <div class="section-content">
           <div class="slider-container swiper">
             <div class="slider-wrapper">
               <ul class="testimonials-list swiper-wrapper">
                 <li class="testimonial swiper-slide">
-                  <img src="/images/user-1.jpg" alt="User" class="user-image">
+                  <img src="/images/user-1.jpg" alt="User" class="user-image" />
                   <h3 class="name">Sarah Johnson</h3>
-                  <i class="feedback">Loved the French roast. Perfectly balanced and rich. Will order again</i>
+                  <i class="feedback"
+                    >Loved the French roast. Perfectly balanced and rich. Will
+                    order again</i
+                  >
                 </li>
                 <li class="testimonial swiper-slide">
-                  <img src="/images/user-2.jpg" alt="User" class="user-image">
+                  <img src="/images/user-2.jpg" alt="User" class="user-image" />
                   <h3 class="name">James Wilson</h3>
-                  <i class="feedback">Great espresso! Smooth and bold flavour.</i>
+                  <i class="feedback"
+                    >Great espresso! Smooth and bold flavour.</i
+                  >
                 </li>
                 <li class="testimonial swiper-slide">
-                  <img src="/images/user-3.jpg" alt="User" class="user-image">
+                  <img src="/images/user-3.jpg" alt="User" class="user-image" />
                   <h3 class="name">Michael Brown</h3>
                   <i class="feedback">Excellent quality french beans.</i>
                 </li>
                 <li class="testimonial swiper-slide">
-                  <img src="/images/user-4.jpg" alt="User" class="user-image">
+                  <img src="/images/user-4.jpg" alt="User" class="user-image" />
                   <h3 class="name">Emily Harris</h3>
                   <i class="feedback">Best decap I've tried.</i>
                 </li>
                 <li class="testimonial swiper-slide">
-                  <img src="/images/user-5.jpg" alt="User" class="user-image">
+                  <img src="/images/user-5.jpg" alt="User" class="user-image" />
                   <h3 class="name">Anthony Thompson</h3>
-                  <i class="feedback">Loved the French roast. Perfectly balanced and rich. Will order again</i>
+                  <i class="feedback"
+                    >Loved the French roast. Perfectly balanced and rich. Will
+                    order again</i
+                  >
                 </li>
               </ul>
               <div class="swiper-pagination"></div>
@@ -232,71 +241,133 @@
             </div>
           </div>
         </div>
-       </section>
+      </section>
 
-       <!-- Gallery Section -->
-        <section class="gallery-section">
-          <h2 class="section-title">Gallery</h2>
-          <div class="section-content"></div>
-          <ul class="gallery-list">
-            <li class="gallery-item">
-              <img src="/images/gallery-1.jpg" alt="Gallery" class="gallery-image">
+      <!-- Gallery Section -->
+      <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content"></div>
+        <ul class="gallery-list">
+          <li class="gallery-item">
+            <img
+              src="/images/gallery-1.jpg"
+              alt="Gallery"
+              class="gallery-image"
+            />
+          </li>
+          <li class="gallery-item">
+            <img
+              src="/images/gallery-2.jpg"
+              alt="Gallery"
+              class="gallery-image"
+            />
+          </li>
+          <li class="gallery-item">
+            <img
+              src="/images/gallery-3.jpg"
+              alt="Gallery"
+              class="gallery-image"
+            />
+          </li>
+          <li class="gallery-item">
+            <img
+              src="/images/gallery-4.jpg"
+              alt="Gallery"
+              class="gallery-image"
+            />
+          </li>
+          <li class="gallery-item">
+            <img
+              src="/images/gallery-5.jpg"
+              alt="Gallery"
+              class="gallery-image"
+            />
+          </li>
+          <li class="gallery-item">
+            <img
+              src="/images/gallery-6.jpg"
+              alt="Gallery"
+              class="gallery-image"
+            />
+          </li>
+        </ul>
+      </section>
+      <!-- Contact Section -->
+      <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+          <ul class="contact-info-list">
+            <li class="contact-info">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p>123 Campsite Avenue, Wilderness, CA 98765</p>
             </li>
-            <li class="gallery-item">
-              <img src="/images/gallery-2.jpg" alt="Gallery" class="gallery-image">
+            <li class="contact-info">
+              <i class="fa-regular fa-envelope"></i>
+              <p>info@coffeeshopwebsite.com</p>
             </li>
-            <li class="gallery-item">
-              <img src="/images/gallery-3.jpg" alt="Gallery" class="gallery-image">
+            <li class="contact-info">
+              <i class="fa-solid fa-phone"></i>
+              <p>(123) 456-7890</p>
             </li>
-            <li class="gallery-item">
-              <img src="/images/gallery-4.jpg" alt="Gallery" class="gallery-image">
+            <li class="contact-info">
+              <i class="fa-regular fa-clock"></i>
+              <p>Monday - Friday : 09:00 AM - 05:00 PM</p>
             </li>
-            <li class="gallery-item">
-              <img src="/images/gallery-5.jpg" alt="Gallery" class="gallery-image">
-            </li>
-            <li class="gallery-item">
-              <img src="/images/gallery-6.jpg" alt="Gallery" class="gallery-image">
+            <li class="contact-info">
+              <i class="fa-solid fa-globe"></i>
+              <p>www.mernsol.com</p>
             </li>
           </ul>
-        </section>
-        <!-- Contact Section -->
-         <section class="contact-section">
-          <h2 class="section-title">Contact Us</h2>
-          <div class="section-content">
-            <ul class="contact-info-list">
-              <li class="contact-info">
-                <i class="fa-solid fa-location-crosshairs"></i>
-                <p>123 Campsite Avenue, Wilderness, CA 98765</p>
-              </li>
-              <li class="contact-info">
-                <i class="fa-regular fa-envelope"></i>
-                <p>info@coffeeshopwebsite.com</p>
-              </li>
-              <li class="contact-info">
-                <i class="fa-solid fa-phone"></i>
-                <p>(123) 456-7890</p>
-              </li>
-              <li class="contact-info">
-                <i class="fa-regular fa-clock"></i>
-                <p>Monday - Friday : 09:00 AM - 05:00 PM</p>
-              </li>
-              <li class="contact-info">
-                <i class="fa-solid fa-globe"></i>
-                <p>www.mernsol.com</p>
-              </li>
-            </ul>
-            <form action="#" class="contact-form">
-              <input type="text" placeholder="Your name" class="form-input" required>
-              <input type="email" placeholder="Your email" class="form-input" required>
-              <textarea placeholder="Your message" class="form-input" required></textarea>
-              <button class="button submit-button">Submit</button>
-            </form>
+          <form action="#" class="contact-form">
+            <input
+              type="text"
+              placeholder="Your name"
+              class="form-input"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Your email"
+              class="form-input"
+              required
+            />
+            <textarea
+              placeholder="Your message"
+              class="form-input"
+              required
+            ></textarea>
+            <button class="button submit-button">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer class="footer-section">
+        <div class="section-content">
+          <p class="copyright-text">© 2025 Coffee Shop</p>
+          <div class="social-link-list">
+            <a href="#" class="social-link"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" class="social-link"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" class="social-link"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
           </div>
-         </section>
+          <p class="policy-text">
+            <a href="#" class="policy-link">Privacy policy</a>
+            <span class="separator">•</span>
+            <a href="#" class="policy-link">Refund policy</a>
+          </p>
+        </div>
+      </footer>
     </main>
-    <!-- Linking Swiper Script  -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- Linking Custom Script -->
-    <script src="script.js"></script>
   </body>
+
+  <!-- Linking Swiper Script  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Linking Custom Script -->
+  <script src="script.js"></script>
 </html>
