@@ -18,6 +18,8 @@ const swiper = new Swiper('.slider-wrapper', {
   loop: true,
   grabCursor: true,
   spaceBetween: 25,
+  observer: true,
+  observeParents: true,
 
   // If we need pagination
   pagination: {
@@ -36,10 +38,10 @@ const swiper = new Swiper('.slider-wrapper', {
     0: {
       slidesPerView: 1
     },
-    768: {
+  768: {
       slidesPerView: 2
     },
-    1024: {
+    1200: {
       slidesPerView: 3
     },
   }
