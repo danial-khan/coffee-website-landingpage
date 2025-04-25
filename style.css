@@ -67,7 +67,6 @@ img {
   overflow: hidden;
   margin: 0;
   padding: 0 20px;
-  max-width: var(--site-max-width);
 }
 
 .section-title{
@@ -315,7 +314,14 @@ body.show-mobile-menu header::before{
   flex-direction: column;
   padding: 50px 0 100px;
   background: var(--light-pink-color);
-  align-items: stretch;
+  width: 100%;
+}
+
+.testimonials-section .section-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .slider-wrapper{

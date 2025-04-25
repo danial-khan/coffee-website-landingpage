@@ -17,7 +17,6 @@ navLinks.forEach(link =>{
 const swiper = new Swiper('.slider-wrapper', {
   loop: true,
   grabCursor: true,
-  spaceBetween: 25,
   observer: true,
   observeParents: true,
 
